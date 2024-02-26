@@ -7,10 +7,10 @@ name = "demo1"
 object "<u>sourceFiles:Folder</u>" as sourceFiles{
 name = "Source Files"
 }
-object "<u>Include Path:Folder</u>" as includePath{
+object "<u>includePath:Folder</u>" as includePath{
 name = "Include Path"
 }
-object "<u>Remote Files:Folder</u>" as remoteFiles{
+object "<u>remoteFiles:Folder</u>" as remoteFiles{
 name = "Remote Files"
 }
 

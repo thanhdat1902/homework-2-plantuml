@@ -1,76 +1,76 @@
 @startuml
 'https://plantuml.com/object-diagram
 
-object "<u>Joe_Jones_Base:Employee</u>" as employeeb1{
+object "<u>joeJones:Employee</u>" as employeeb1{
 firstName = "Joe"
 lastName = "Jones"
 socialSecurityNumber = "111-11-1111"
 }
 
-object "<u>Joe_Jones:SalariedEmployee</u>" as employee1{
+object "<u>joeJones:SalariedEmployee</u>" as employee1{
 weeklySalary = 2500
 }
 
-object "<u>Stephanie_Smith_Base:Employee</u>" as employeeb2{
+object "<u>stephanieSmith:Employee</u>" as employeeb2{
 firstName = "Stephanie"
 lastName = "Smith"
 socialSecurityNumber = "222-22-2222"
 }
 
-object "<u>Stephanie_Smith:HourlyEmployee</u>" as employee2{
+object "<u>stephanieSmith:HourlyEmployee</u>" as employee2{
 wage = 25
 hoursWorked = 32
 }
 
-object "<u>Mary_Quinn_Base:Employee</u>" as employeeb3{
+object "<u>maryQuinn:Employee</u>" as employeeb3{
 firstName = "Mary"
 lastName = "Queen"
 socialSecurityNumber = "333-33-3333"
 }
 
-object "<u>Mary_Quinn:HourlyEmployee</u>" as employee3{
+object "<u>maryQuinn:HourlyEmployee</u>" as employee3{
 wage = 19
 hoursWorked = 47
 }
 
-object "<u>Nicole_Dior_Base:Employee</u>" as employeeb4{
+object "<u>nicoleDior:Employee</u>" as employeeb4{
 firstName = "Nicole"
 lastName = "Dior"
 socialSecurityNumber = "444-44-4444"
 }
 
-object "<u>Nicole_Dior:CommissionEmployee</u>" as employee4{
+object "<u>nicoleDior:CommissionEmployee</u>" as employee4{
 commissionRate = 15
 grossSales = 50000
 }
 
-object "<u>Renwa_Chanel_Base:Employee</u>" as employeeb5{
+object "<u>renwaChanel:Employee</u>" as employeeb5{
 firstName = "Renwa"
 lastName = "Chanel"
 socialSecurityNumber = "555-55-5555"
 }
 
-object "<u>Renwa_Chanel:SalariedEmployee</u>" as employee5{
+object "<u>renwaChanel:SalariedEmployee</u>" as employee5{
 weeklySalary = 1700
 }
 
-object "<u>Mike_Davenport_Base:Employee</u>" as employeeb6{
+object "<u>mikeDavenport:Employee</u>" as employeeb6{
 firstName = "Mike"
 lastName = "Davenport"
 socialSecurityNumber = "666-66-6666"
 }
 
-object "<u>Mike_Davenport:BaseEmployee</u>" as employee6{
+object "<u>mikeDavenport:BaseEmployee</u>" as employee6{
 baseSalary = 95000
 }
 
-object "<u>Mahnaz_Vaziri_Base:Employee</u>" as employeeb7{
+object "<u>mahnazVaziri:Employee</u>" as employeeb7{
 firstName = "Mahnaz"
 lastName = "Vaziri"
 socialSecurityNumber = "777-77-7777"
 }
 
-object "<u>Mahnaz_Vaziri:CommissionEmployee</u>" as employee7{
+object "<u>mahnazVaziri:CommissionEmployee</u>" as employee7{
 commissionRate = 22
 grossSales = 40000
 }
